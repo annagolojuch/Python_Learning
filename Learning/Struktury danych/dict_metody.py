@@ -42,3 +42,17 @@ project_ids = {
 result = list(set(project_ids.values()))
 result.sort()
 print(result)
+
+print(30*'-')
+
+stats = {'strona': 'e-smartdata.org', 'ruch': 100, 'typ': 'organiczny'}
+print(stats.pop('ruch'))
+print(stats)
+#lub
+del stats['typ']
+print(stats)
+
+print(30*'-')
+
+users = {'001': 'Marek', '002': 'Monika', '003': 'Jakub'}
+print(users.pop('004', 'nieokreślony'))
